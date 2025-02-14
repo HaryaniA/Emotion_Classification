@@ -2,6 +2,8 @@ import gradio as gr
 import torch
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
+# Setup device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Model path on Hugging Face Hub
 model_path = "HaryaniAnjali/Llama_3.2_Trained_Emotion"
