@@ -39,7 +39,7 @@ Link: https://huggingface.co/spaces/HaryaniAnjali/Emotion_Classification
 
 4. Dataset
 
-The dataset used for training consists of text samples labeled with seven emotions. 
+The dataset is ISEAR Dataset used for this project consists of text samples labeled with seven emotions. 
 
 5. Implementation Details
 
