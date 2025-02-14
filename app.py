@@ -1,5 +1,5 @@
 import gradio as gr
-from transformers import pipeline
+from transformers import pipeline  
 
 # Load your model from Hugging Face
 model_name = "HaryaniAnjali/Llama_3.2_Trained_Emotion"
