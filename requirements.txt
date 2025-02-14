@@ -1,4 +1,5 @@
 huggingface_hub==0.25.2
 transformers
-gradio
 torch
+accelerate
+gradio
