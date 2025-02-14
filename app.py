@@ -67,7 +67,7 @@ ui = gr.Interface(
     inputs=["text", gr.Radio(list(model_paths.keys()), label="Select Model")],
     outputs="text",
     title="Emotion Recognition",
-    description="Enter a text, select a model, and classify its emotion."
+    description="Enter a text to recognize its emotion."
 )
 
 ui.queue().launch()
